@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="jsFrom">
+      <input type="text" placeholder="Your Name" name="Name" />
+      <div class="err errName"></div>
+      <input type="text" placeholder="Your Email" name="Email" />
+      <div class="err errEmail"></div>
+      <input type="password" placeholder="Your Password" name="Pass" id="pass" />
+      <div class="err errPass"></div>
+      <input type="password" placeholder="Confirm Password" name="cPass" id="cpass" />
+      <div class="err errcPass"></div>
+      Gender :
+      <input type="radio" name="Gender" value="Male"> Male
+      <input type="radio" name="Gender" value="Female"> Female
+      <input type="radio" name="Gender" value="Other"> Others
+      <div class="err errGender"></div>
+      Skills : 
+      <input type="checkbox" name="Skills" value="HTML">HTML
+      <input type="checkbox" name="Skills" value="CSS">Css
+      <input type="checkbox" name="Skills" value="JavaScript">JavaScript
+      <input type="checkbox" name="Skills" value="React Js">React Js
+      <input type="checkbox" name="Skills" value="React Js"> Mongo DB
+      <input type="checkbox" name="Skills" value="React Js"> Express . Jr
+      <div class="err errSkills"></div>
+
+      Country  :
+      <select name="Country" id="countries">
+        <option value="">-- Select Country --</option>
+      </select>
+       <div class="err errCountry"></div>
+       <input type="checkbox" id="showPass"> Show Pass
+       <br> <br>
+<button type="submit">Submit</button>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
